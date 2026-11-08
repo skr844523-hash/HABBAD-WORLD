@@ -416,7 +416,7 @@ function Hud() {
           type="button"
           data-control
           onClick={togglePause}
-          className="pointer-events-auto flex size-12 items-center justify-center rounded-full border-2 border-ink bg-card"
+          className="pointer-events-auto flex size-12 touch-none items-center justify-center rounded-full border-2 border-ink bg-card"
           aria-label="إيقاف"
         >
           <Pause className="size-5" />
@@ -466,10 +466,10 @@ function Hud() {
         <p className="pointer-events-none absolute inset-x-0 top-1/3 text-center text-5xl font-black text-primary">{bark}</p>
       ) : null}
 
-      <div className="absolute bottom-4 left-4" data-control>
+      <div className="game-controls-left pointer-events-auto absolute bottom-4 left-4 touch-none select-none" data-control>
         <Joystick />
       </div>
-      <div className="absolute bottom-4 right-4 flex flex-col gap-2" data-control>
+      <div className="game-controls-right pointer-events-auto absolute bottom-4 right-4 flex flex-col gap-2 touch-none select-none" data-control>
         <HoldButton label="قفز" onHold={(v) => (input.jumpHeld = v)} tone="bg-primary text-primary-ink" />
         <HoldButton label="جري" onHold={(v) => (input.runHeld = v)} tone="bg-gold text-gold-ink" />
         <button
@@ -479,7 +479,7 @@ function Hud() {
             e.preventDefault();
             input.interactQueued = true;
           }}
-          className="flex h-14 w-16 items-center justify-center rounded-2xl border-2 border-ink bg-mint text-xs font-black text-mint-ink"
+          className="flex h-14 w-16 touch-none select-none items-center justify-center rounded-2xl border-2 border-ink bg-mint text-xs font-black text-mint-ink"
         >
           تفاعل
         </button>
@@ -521,7 +521,7 @@ function HoldButton({ label, onHold, tone }: { label: string; onHold: (v: boolea
       }}
       onPointerUp={() => onHold(false)}
       onPointerCancel={() => onHold(false)}
-      className={`flex h-14 w-16 items-center justify-center rounded-2xl border-2 border-ink text-xs font-black ${tone}`}
+      className={`flex h-14 w-16 touch-none select-none items-center justify-center rounded-2xl border-2 border-ink text-xs font-black ${tone}`}
     >
       {label}
     </button>
@@ -555,7 +555,7 @@ function Joystick() {
   return (
     <div
       data-control
-      className="relative flex size-32 items-center justify-center rounded-full border-2 border-ink bg-card/80"
+      className="pointer-events-auto relative flex size-32 touch-none select-none items-center justify-center rounded-full border-2 border-ink bg-card/80"
       onPointerDown={(e) => {
         e.preventDefault();
         e.currentTarget.setPointerCapture(e.pointerId);

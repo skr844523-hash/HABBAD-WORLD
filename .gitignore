@@ -5,3 +5,4 @@ node_modules/
 .grok/
 dist/
 .DS_Store
+.vercel

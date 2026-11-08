@@ -44,3 +44,41 @@
     transition: none !important;
   }
 }
+
+
+/* Mobile gameplay controls */
+.game-root {
+  overscroll-behavior: none;
+}
+.game-controls-left,
+.game-controls-right,
+.game-controls-left *,
+.game-controls-right * {
+  touch-action: none;
+  -webkit-user-select: none;
+  user-select: none;
+  -webkit-touch-callout: none;
+}
+
+/* Landscape phone layout */
+@media (orientation: landscape) and (max-height: 600px) {
+  .game-controls-left {
+    left: max(12px, env(safe-area-inset-left));
+    bottom: max(10px, env(safe-area-inset-bottom));
+  }
+  .game-controls-left > div {
+    width: 108px;
+    height: 108px;
+  }
+  .game-controls-right {
+    right: max(12px, env(safe-area-inset-right));
+    bottom: max(10px, env(safe-area-inset-bottom));
+    flex-direction: row;
+    align-items: flex-end;
+    gap: 8px;
+  }
+  .game-controls-right button {
+    width: 58px;
+    height: 52px;
+  }
+}

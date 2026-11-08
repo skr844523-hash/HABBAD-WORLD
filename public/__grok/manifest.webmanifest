@@ -1,0 +1,19 @@
+{
+  "name": "HABBAD WORLD — عالم الهبد",
+  "short_name": "HABBAD WORLD",
+  "description": "حديقة فيزياء ثلاثية الأبعاد",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "landscape",
+  "background_color": "#8ecfff",
+  "theme_color": "#e23b4a",
+  "icons": [
+    {
+      "src": "/__grok/icon-180.png",
+      "sizes": "180x180",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}
