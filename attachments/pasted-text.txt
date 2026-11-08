@@ -1,0 +1,79 @@
+Create a complete, playable 3D funny physics sandbox game called HABBAD WORLD – عالم الهبد.
+
+Game Concept:
+A hilarious 3D sandbox playground where players can freely explore, experiment with funny physics, interact with objects, and create chaotic situations.
+
+Visual Style:
+
+- Beautiful colorful 3D cartoon graphics.
+- Smooth animations and realistic ragdoll physics.
+- Funny characters with exaggerated reactions.
+- Bright lighting, shadows, reflections, and attractive environments.
+- Premium mobile-game quality.
+
+World Design:
+Create a colorful amusement park with:
+
+- Giant slides and trampolines.
+- Swinging platforms.
+- Moving obstacles.
+- Funny physics playground.
+- Explosive fictional barrels.
+- Cars and interactive objects.
+- Hidden areas and secret challenges.
+
+Player Controls:
+
+- Third-person 3D camera.
+- Virtual joystick on the left.
+- Jump button.
+- Run button.
+- Interact button.
+- Camera rotation using touch.
+- Smooth mobile-friendly controls.
+
+Gameplay Features:
+
+1. Fully controllable 3D character.
+2. Advanced ragdoll physics.
+3. Pick up, throw, push and drop objects.
+4. Funny collision animations.
+5. Drive small vehicles.
+6. Unlock new characters and costumes.
+7. Collect coins.
+8. Daily challenges.
+9. Mini-games and funny missions.
+10. Save player progress locally.
+
+Game Modes:
+
+- Free Play: Explore and have fun.
+- Challenge Mode: Complete crazy missions.
+- Chaos Mode: Experiment with physics.
+- Mini-Games: Short entertaining activities.
+
+User Interface:
+
+- Arabic RTL interface.
+- Modern colorful menus.
+- Main menu with Play, Characters, Settings and Shop.
+- Mobile-first responsive design.
+- Sound effects and funny background music.
+- Pause menu and restart option.
+
+Technical Requirements:
+
+- Build a real playable 3D game, not a static mockup.
+- Use Three.js with optimized 3D models and physics.
+- Optimize performance for Android phones with 8GB RAM.
+- Use lightweight assets and efficient rendering.
+- Include touch controls and mobile landscape support.
+- Ensure all buttons and gameplay mechanics actually work.
+- Avoid paid external APIs and mandatory accounts.
+- Make the game playable immediately after loading.
+
+Important:
+Start by building a complete playable prototype with one character, one 3D playground, working physics, movement, jumping, object interaction and camera controls. Then expand the game with additional content.
+
+Game title: HABBAD WORLD
+Arabic subtitle: عالم الهبد 😂
